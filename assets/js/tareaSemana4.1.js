@@ -13,13 +13,27 @@ const milQuinientos = () => {
 //unoCien();
 //milQuinientos();
 
-/*function sumaNotas(a, b, c) {
-    return a + b + c;
-  }
 
+
+
+//FUNCION FLECHA
+
+sumarNotas = (n1, n2, n3, n4, n5, n6) => n1 + n2 + n3 + n4 + n5 + n6;
+const totalSuma = sumarNotas(1, 1, 1, 1, 1, 1);
+console.log("La suma de las notas es :" + totalSuma);
+
+calculaPromedio = (totalSuma) => totalSuma / 6;
+const promedioFinal = calculaPromedio(totalSuma);
+console.log("El promedio es :" + promedioFinal);
+
+//FUNCION LARGA
+function sumaNotas(a, b, c) {
+    return a + b + c;
+}
+  
   var suma = sumaNotas(3, 4, 5);
 
-  function promedio(suma, q) {
+  function promedio(suma) {
     return suma / 6;
   }
 
@@ -27,14 +41,3 @@ const milQuinientos = () => {
 
   console.log("La suma de las notas es :" + suma);
   console.log("el promedio es :" + promedio);
-}
-*/
-
-//const sumaNotas = (a, b, c) => a + b + c;
-function sumaNotas(a, b, c) {
-  return a + b + c;
-}
-var suma = sumaNotas(3, 4, 5);
-
-//sumaNotas(1, 2, 3);
-console.log("La suma de las notas es :" + sumaNotas);
