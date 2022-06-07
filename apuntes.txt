@@ -1,0 +1,35 @@
+SEMANA 4  04/06/2022
+
+----------------------JAVASCRIPT 1 -------------------
+
+INTRODUCCION JAVASCRIPT:
+
+JS es el unico lenguaje de programacion que lo puede leer el navegador(cliente)
+es interpretado(traducido por lenguaje de maquina) 
+
+paradigma (forma de programar) JS es multiparadigma
+* programacion funcional????????????**
+
+
+ ajax solucionnsitios dinamicos sin tener que recargar la pagina
+ codigo asyncronico 
+
+ html toma todos los llamados, es la puerta de entrada para JS
+ se debe importar el codigo JS en el html, para seguir la coherencia, mejor practica, no montar el <script> en el HTML
+
+<script src="Se puede ingresar codigo JS desde cualquier fuente , web, o local"></script>   RUTA RELATIVA
+
+DOM : arbol de etiqueta el navegador lo genera e identifica cada etiqueta dentro del HMTL(el dom debe cargar antes del script)
+ como buena practica el script debe ir al final del body.
+
+
+ Datos primitivos(fundamentales): textos strings o cadenas de texto, numeros(no clasifica como float ni enteros), booleano (true or false)
+
+
+ Datos no primitivos: arreglos, matrices [] , objetos{propiedad;valor} , funciones
+
+
+declaracion de variables con las palabras reservadas
+ var: es una mala practica de uso diario x scoope
+ const: variable constante inmutable, nunca va cambiar tipo de dato ni valor, se pueden fijar funciones 
+ let: reemplaza a var, es modificable
